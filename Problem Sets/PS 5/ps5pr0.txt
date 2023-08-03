@@ -1,0 +1,9 @@
+﻿Problem Set 5, Problem 0
+Put your response to the reading below.
+IMPORTANT: Your entire response should fit on this page.
+
+
+1. In her paper, Hopper lists two drawbacks of “using subroutines” (i.e., of abstracting sequences of instructions into reusable functions). Do you think those drawbacks still exist? How important are they today?
+* I guess some of the drawbacks still exist, but since programs using code were updated since then, it is a lot easier to use. Some of the problems were the small amount of time lost while performing duplicate data transfers. However, after using subroutines, we can reduce so much more time to write codes. Also, for the concern that some of the desired subroutines do not exist, as I said earlier, programs were updated and store so many different subroutines, I think there is no problem using them.
+2. Hopper also lists five advantages of using subroutines, but her list is not comprehensive. Explain at least one advantage of a high-level language that Hopper did not mention in her paper. This may be an idea of your own, or you might take one from those mentioned in the biographical sketch of Hopper, since she continued to expand her arguments for such languages as her career progressed!
+* On top of Hopper’s five advantages, I think the best reason why high-level language is good is that it is simply easier to read, write, and maintain. Low-level language tends to be messy as we write the codes. However high-level languages are straightforward to read and understand. Also when we write the codes, low-level languages might be complicated to write or might be longer to write than high-level languages. Lastly for maintaining, high-level languages are easier to debug the code which means we can maintain the code rather than changing most of the codes.

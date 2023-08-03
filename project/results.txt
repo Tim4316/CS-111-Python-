@@ -1,0 +1,97 @@
+# Name: Hyungu Lee
+# E-mail: hlee18@bu.edu
+
+puzzles with 5-move optimal solutions
+-------------------------------------
+algorithm                num. solved    avg. moves    avg. states tested
+------------------------------------------------------------------------
+random                       10            5.8              235.5
+BFS                          10            5.0               47.1
+DFS (depth limit 20)         10           16.2            19072.7
+DFS (depth limit 50)         10           48.2            49043.0
+Greedy Search (using h1)     10            5.4               70.3
+A* (using h1)                10            5.0                6.5
+
+
+puzzles with 10-move optimal solutions
+-------------------------------------
+algorithm                num. solved    avg. moves    avg. states tested
+------------------------------------------------------------------------
+random                       10            12.4              5620.9
+BFS                          10            10.0               747.4
+DFS (depth limit 20)         10            18.8             24858.0
+DFS (depth limit 50)         10            49.2             92287.3
+Greedy Search (using h1)     10            97.6              7422.7
+A* (using h1)                10            10.0                27.3
+
+
+puzzles with 15-move optimal solutions
+-------------------------------------
+algorithm                num. solved    avg. moves    avg. states tested
+------------------------------------------------------------------------
+random                       7             17.3            22528.4
+BFS                         10             15.0            12672.0 
+DFS (depth limit 20)        10             17.8            68659.0
+DFS (depth limit 50)        10             48.6           111406.0
+Greedy Search (using h1)     7            125.9             6486.7
+A* (using h1)               10             15.0              313.8
+
+
+For puzzles with 5 moves optimal solution, it seems there is not much of a difference in finding solution except DFS. DFS took way more tests than other algorithm.
+Because DFS tries to solve the puzzle with single states, it needs way more moves when it goes to a wrong direction.
+However, using heuristics seems much faster by lowering the moves and the states tested.
+
+
+
+
+puzzles with 18-move optimal solutions
+--------------------------------------
+algorithm              num. solved    avg. moves    avg. states tested
+----------------------------------------------------------------------
+Greedy (heuristic h1)        7          133.7             4594.0 
+Greedy (heuristic h2).      10           73.8             1076.4
+
+A* (heuristic h1)            10           18.0             1602.0
+A* (heuristic h2)            10           18.0              386.2
+
+
+
+puzzles with 21-move optimal solutions
+--------------------------------------
+algorithm              num. solved    avg. moves    avg. states tested
+----------------------------------------------------------------------
+Greedy (heuristic h1)      4           109.0              416.5
+Greedy (heuristic h2).    10            84.0              998.0
+
+A* (heuristic h1)           10            21.0             6301.7
+A* (heuristic h2)           10            21.0             1060.2
+
+
+
+puzzles with 24-move optimal solutions
+--------------------------------------
+algorithm              num. solved    avg. moves    avg. states tested
+----------------------------------------------------------------------
+Greedy (heuristic h1)        6           123.7             2856.2
+Greedy (heuristic h2)       10            79.8             1121.3
+
+A* (heuristic h1)            3            24.0            25705.7
+A* (heuristic h2)           10            24.0             3759.2
+
+
+
+puzzles with 27-move optimal solutions
+--------------------------------------
+algorithm              num. solved    avg. moves    avg. states tested
+---------------------------------------------------------------------
+Greedy (heuristic h1)        4           197.5             4285.5
+Greedy (heuristic h2)       10            87.0             1070.8	
+
+A* (heuristic h1)            0              --                 --
+A* (heuristic h2)           10             27.0            18402.3
+
+
+Using Heuristics method seems to reach the solution than any other algorithm.
+However, as the charts above, heuristics h2 seems more reliable than heuristics h1.
+Since h1 compares how many tiles are misplaced when solving the puzzle, number of moves that lead to the solution can differ, which leads to using more moves and states tested.
+On the other hand, h2 finds the distance of the misplaced tile to the correct row and column. This method makes the moves and states tested a lot lesser than h1.

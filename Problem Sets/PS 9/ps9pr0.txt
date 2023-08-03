@@ -1,0 +1,5 @@
+﻿Problem Set 9: Problem 0
+Put your response to the reading below.
+
+
+I think pivot searching is definitely helpful. The pivot searchings idea is to find the pivot point, dividing the array into two sub-arrays and searching in binary form. I think it is a lot helpful if a search engine is performing in two different parts and trying to find what I’m trying to find. It will take less time and increase efficiency. Also especially for doctors, there are so many different kinds of research for patients that they do not know. For them to find similar cases and help the patient, pivot searching can be the key resource for them.

@@ -1,0 +1,8 @@
+﻿PS 7: Problem 0
+Put your response to the reading below.
+
+
+1. What was the most interesting or important idea in this article for you – and why?
+* I think the most important idea is that biology and computer science can work together. I never thought of DNA as a computational device. I assume any practical device was decades away, but the potential that goes on in the future will be great. Also I was amazed that a DNA computer could store information in one-trillionth the space of current media - if researchers can get 1018 strands of DNA to do what they’re told.
+2. What are some of the limitations of this approach to computing?
+* DNA computing does not provide any new capabilities from the standpoint of computability theory, the study of which problems are computationally solvable using different models of computation. For example, if the space required for the solution of a problem grows exponentially with the size of the problem (EXPSPACE problems) on von Neumann machines, it still grows exponentially with the size of the problem on DNA machines. For very large EXPSPACE problems, the amount of DNA required is too large to be practical.
